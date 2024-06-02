@@ -33,7 +33,7 @@ export default function Navbar() {
                             marginRight: '12px'
                         }
                     }
-                }} ></OrganizationSwitcher>
+                }}></OrganizationSwitcher>
             </div>
             {organization && <InviteButton></InviteButton>}
             <UserButton></UserButton>

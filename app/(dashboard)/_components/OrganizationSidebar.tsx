@@ -46,7 +46,7 @@ export default function OrganizationSidebar() {
                         marginRight: '12px'
                     }
                 }
-            }} ></OrganizationSwitcher>
+            }}></OrganizationSwitcher>
 
             <div className="space-y-1 w-full">
                 <Button asChild variant={favourites ? 'ghost' : 'secondary'} size='lg'

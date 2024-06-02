@@ -16,11 +16,11 @@ export default function List() {
 
     return (
         <ul className="space-y-4">
-            {userMemberships.data.map((membership) => (
-                <Item key={membership.organization.id}
-                    id={membership.organization.id}
-                    name={membership.organization.name} imageUrl={membership.organization.imageUrl} />
-            ))}
+            {
+                userMemberships.data.map((membership) => (
+                    <Item key={membership.organization.id} id={membership.organization.id} name={membership.organization.name} imageUrl={membership.organization.imageUrl}></Item>
+                ))
+            }
         </ul>
     )
 }
