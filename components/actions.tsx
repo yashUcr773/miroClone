@@ -19,7 +19,7 @@ interface ActionsProps {
     title: string;
 };
 
-export default function Actions({ children, side, sideOffset, id, title, }: ActionsProps) {
+export default function Actions({ children, side, sideOffset, id, title}: ActionsProps) {
     const { onOpen } = useRenameModal();
     const { mutate, pending } = useApiMutation(api.board.remove);
 

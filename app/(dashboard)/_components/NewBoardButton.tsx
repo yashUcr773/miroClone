@@ -14,7 +14,7 @@ interface NewBoardButtonProps {
     disabled?: boolean;
 };
 
-export default function NewBoardButton({ orgId, disabled, }: NewBoardButtonProps) {
+export default function NewBoardButton({ orgId, disabled}: NewBoardButtonProps) {
     const router = useRouter();
     const { onOpen } = useProModal();
     const { mutate, pending } = useApiMutation(api.board.create);

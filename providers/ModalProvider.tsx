@@ -15,7 +15,7 @@ export default function ModalProvider() {
 
     return (
         <>
-            <RenameModal />
+            <RenameModal></RenameModal>
         </>
     );
 };
