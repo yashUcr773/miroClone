@@ -1,7 +1,7 @@
 export default {
     providers: [
         {
-            domain: "https://content-muskox-91.clerk.accounts.dev",
+            domain: process.env.NEXT_CLERK_JWT_ISSUER,
             applicationID: "convex",
         },
     ],
