@@ -5,7 +5,7 @@ import { BringToFront, SendToBack, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useMutation, useSelf } from "@/liveblocks.config";
 import ColorPicker from "./ColorPicker";
-import Hint from "@/components/Hint";
+import Hint from "@/components/HintToolTip";
 import useDeleteLayers from "@/hooks/useDeleteLayers";
 import { Camera, Color } from "@/types/canvas";
 import useSelectionBounds from "@/hooks/useSelectionBounds";

@@ -2,7 +2,7 @@
 
 import { useQuery } from "convex/react";
 import { Menu } from "lucide-react";
-import Hint from "@/components/Hint";
+import Hint from "@/components/HintToolTip";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
@@ -11,7 +11,7 @@ import { Id } from "@/convex/_generated/dataModel";
 import { api } from "@/convex/_generated/api";
 import { Poppins } from "next/font/google";
 import { useRenameModal } from "@/store/useRenameModal";
-import Actions from "@/components/Actions";
+import Actions from "@/components/ActionButton";
 
 const font = Poppins({
     subsets: ["latin"],

@@ -11,7 +11,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import BoardOverlay from "./BoardOverlay";
 import BoardFooter from "./BoardFooter";
 import useApiMutation from "@/hooks/UseApiMutation";
-import Actions from "@/components/Actions";
+import Actions from "@/components/ActionButton";
 
 interface BoardCardProps {
     id: string;

@@ -4,7 +4,7 @@ import { Cross, CrossIcon, CrosshairIcon, Plus } from "lucide-react"
 
 import { CreateOrganization } from "@clerk/nextjs"
 import { Dialog, DialogClose, DialogContent, DialogTrigger } from "@/components/ui/dialog"
-import Hint from "@/components/Hint"
+import Hint from "@/components/HintToolTip"
 
 export default function NewButton() {
     return (
