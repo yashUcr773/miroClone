@@ -1,6 +1,9 @@
 # MiroClone App
 
 Demo - [miroClone.uk](https://miroclone.uk/)
+Test Account
+email - demouser@mailsac.com
+password - demo_user_1
 
 ## Introduction
 MiroClone is a web-based collaboration tool inspired by Miro, allowing teams to create organizations, invite members, and work together on digital whiteboards in real-time. Users can add sticky notes, shapes, images, and files, fostering brainstorming, project planning, and visual organization, ultimately improving team communication, creativity, and project management.
